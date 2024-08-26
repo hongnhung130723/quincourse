@@ -12,6 +12,15 @@ const publicRoutes = [
             }
         ]
     },
+    {
+        layout:AppLayout,
+        routes:[
+            {
+                path: '/study',
+                component:Home
+            }
+        ]
+    },
     
 ] 
 const privateRoutes =[
